@@ -5,12 +5,10 @@
 	Discover the most popular and top images. images data fetched using  <a href="https://unsplash.com/">unsplash</a> API.
 </h4>
 
-## ✨ Screenshots
-| Splash | Main Screen |  Main Screen 2 |
-|:-:|:-:|:-:|
-| ![Fist](screenshots/ss1.jpg?raw=true) | ![3](screenshots/ss2.jpg?raw=true) | ![3](screenshots/ss3.jpg?raw=true) |
-| Movie Details | APK | Demo Video |
-| ![4](screenshots/ss4.jpg?raw=true) | [APK](screenshots/app_movie.apk) | [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/AE9xLklir_I/0.jpg)](https://www.youtube.com/watch?v=AE9xLklir_I)|
+## ✨ Demo
+| Demo Video | 
+|:-:|
+| [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/aG1hqQ_snDU/1.jpg)](https://www.youtube.com/watch?v=aG1hqQ_snDU)|
 
 ## 🌟 Features
 * Clean and Simple Material3 UI.
