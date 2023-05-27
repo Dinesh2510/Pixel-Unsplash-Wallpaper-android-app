@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.android.wallapp.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_HomeFragment_to_PhotoDetailsFragment"
+            app:destination="@id/DetailsFragment" />
+`
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_topic"
+        android:name="com.android.wallapp.ui.topics.TopicsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_topics" >
+        <action
+            android:id="@+id/action_Topic_to_TopicDetailsFragment"
+            app:destination="@id/TopicDetailsFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_fav"
+        android:name="com.android.wallapp.ui.favorite.FavoriteFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_favorite" />
+
+
+    <fragment
+        android:id="@+id/DetailsFragment"
+        android:name="com.android.wallapp.ui.photodetails.PhotoDetailsFragment"
+        android:label="@string/details_fragment_label"
+        tools:layout="@layout/fragment_photo_details">
+        <argument
+            android:name="photo"
+            app:argType="com.android.wallapp.models.PhotoResponse" />
+        <action
+            android:id="@+id/action_DetailsFragment_to_photoZoomFragment"
+            app:destination="@id/photoZoomFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/TopicDetailsFragment"
+        android:name="com.android.wallapp.ui.topicdetails.TopicDetailFragment"
+        android:label="Topic Details"
+        tools:layout="@layout/fragment_topic_detail">
+        <argument
+            android:name="topicsData"
+            app:argType="string"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_HomeFragment_to_PhotoDetailsFragment"
+            app:destination="@id/DetailsFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/photoZoomFragment"
+        android:name="com.android.wallapp.ui.PhotoZoom.PhotoZoomFragment"
+        android:label="Zoom Page"
+        tools:layout="@layout/fragment_photo_zoom">
+        <argument
+            android:name="photo"
+            app:argType="com.android.wallapp.models.PhotoResponse" />
+    </fragment>
+
+</navigation>

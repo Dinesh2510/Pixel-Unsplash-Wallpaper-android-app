@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Pixel Unsplash</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Favorite</string>
+    <string name="title_notifications">Category\'s</string>
+
+    <string name="location_template" translatable="false">%s, %s</string>
+    <string name="image_size_template" translatable="false">%s x %s</string>
+    <string name="title_likes">Likes</string>
+    <string name="title_downloads">Downloads</string>
+    <string name="title_views">Views</string>
+    <string name="exif_camera">Camera</string>
+    <string name="exif_focal_length">Focal Length</string>
+    <string name="exif_aperture">Aperture</string>
+    <string name="exif_shutter">Shutter Speed</string>
+    <string name="exif_iso">ISO</string>
+    <string name="exif_dimension">Dimension</string>
+    <string name="title_photos">Photos</string>
+    <string name="title_collection">Collections</string>
+    <string name="retry">Retry</string>
+
+    <!-- Content Description -->
+    <string name="desc_profile_picture">Profile Picture</string>
+    <string name="desc_image">Image</string>
+    <string name="desc_item_row_image">Item row image</string>
+
+    <!-- ERROR -->
+    <string name="error_no_connection">Something went wrong</string>
+    <string name="error_result_could_not_be_loaded">Result could not be loaded</string>
+    <string name="open_portofolio_link">Open Portofolio</string>
+
+
+    <!--network & error message-->
+    <string name="whops">Whoops!</string>
+    <string name="failed_title_text">Whoops!</string>
+    <string name="failed_text">There is a problem with your network or the server is down, try again later.</string>
+    <string name="no_category_found">There doesn\'t seem to be a category available at the moment.</string>
+    <string name="no_search_found">Search not found! if you want to continue the search, please try entering another keyword!</string>
+    <string name="msg_no_item">There doesn\'t seem to be any content available at the moment.</string>
+    <string name="msg_search_input">Please insert keyword!</string>
+    <string name="btn_retry">RETRY</string>
+    <string name="dialog_option_ok">OK</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="details_fragment_label">Details</string>
+
+
+    <!--set wallpaper option-->
+    <string name="title_set_action_info">Share</string>
+    <string name="title_set_action_save">Save</string>
+    <string name="title_set_action_apply">Apply</string>
+    <string name="title_set_action_favorite">Favorite</string>
+    <string name="dialog_set_title">Set As : </string>
+    <string name="set_home_screen">Home Screen</string>
+    <string name="set_lock_screen">Lock Screen</string>
+    <string name="set_both">Home &amp; Lock Screens</string>
+    <string name="set_crop">Crop</string>
+    <string name="set_with">Set With&#8230;</string>
+    <string name="dialog_option_cancel">Cancel</string>
+    <string name="msg_loading_wallpaper">Loading Wallpaper&#8230;</string>
+    <string name="msg_preparing_wallpaper">Preparing wallpaper&#8230;</string>
+    <string name="msg_apply_wallpaper">Applying wallpaper&#8230;</string>
+    <string name="btn_set_wallpaper">SET WALLPAPER</string>
+    <string name="msg_title_success">Congratulations</string>
+    <string name="msg_success_applied">Wallpaper applied successfully</string>
+    <string name="msg_success_saved">Wallpaper saved successfully</string>
+    <string name="btn_done">Done</string>
+    <string name="snack_bar_failed">Wallpaper not set.</string>
+    <string name="snack_bar_error">Failed! Please try again later.</string>
+    <string name="snack_bar_saving">Saving wallpaper&#8230;</string>
+    <string name="share_text">share text here \n</string>
+
+</resources>
